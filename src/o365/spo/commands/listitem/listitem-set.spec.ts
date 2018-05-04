@@ -160,7 +160,7 @@ describe(commands.LISTITEM_SET, () => {
   after(() => {
     Utils.restore([
       appInsights.trackEvent,
-      auth.getAccessToken,
+      auth.ensureAccessToken,
       auth.restoreAuth
     ]);
   });
