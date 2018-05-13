@@ -39,9 +39,15 @@ pages:
       - externaluser:
         - externaluser list: 'cmd/spo/externaluser/externaluser-list.md'
       - file:
+        - file copy: 'cmd/spo/file/file-copy.md'
         - file get: 'cmd/spo/file/file-get.md'
         - file list: 'cmd/spo/file/file-list.md'
         - file remove: 'cmd/spo/file/file-remove.md'
+      - folder:
+        - folder add: 'cmd/spo/folder/folder-add.md'
+        - folder get: 'cmd/spo/folder/folder-get.md'
+        - folder list: 'cmd/spo/folder/folder-list.md'
+        - folder remove: 'cmd/spo/folder/folder-remove.md'
       - hubsite:
         - hubsite connect: 'cmd/spo/hubsite/hubsite-connect.md'
         - hubsite data get: 'cmd/spo/hubsite/hubsite-data-get.md'
@@ -143,6 +149,7 @@ pages:
       - user:
         - user get: 'cmd/graph/user/user-get.md'
         - user list: 'cmd/graph/user/user-list.md'
+        - user sendmail: 'cmd/graph/user/user-sendmail.md'
     - Azure Management Service (azmgmt):
       - connect: 'cmd/azmgmt/connect.md'
       - disconnect: 'cmd/azmgmt/disconnect.md'
